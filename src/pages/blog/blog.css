@@ -1,0 +1,19 @@
+
+
+.blog {
+    height: 70vh !important;
+}
+.coming_soon {
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.keep_calm {
+    font-family: "Nunito";
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: -20px;
+}
