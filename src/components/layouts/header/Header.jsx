@@ -6,7 +6,7 @@ import { LayoutContext } from "../Layout";
 
 export const Header = () => {
 
-  const {expRef,skillRef,aboutRef} = useContext(LayoutContext);
+  const {expRef,skillRef,aboutRef,eduRef} = useContext(LayoutContext);
 
   return (
     <header>
@@ -34,7 +34,7 @@ export const Header = () => {
           className="nav-item"
           onClick={()=>{skillRef.current?.scrollIntoView({behavior:'smooth'})}}
         >
-          My Skills
+          Skills
         </NavLink>
 
         <NavLink
@@ -42,15 +42,25 @@ export const Header = () => {
           onClick={()=>{expRef.current?.scrollIntoView({behavior:'smooth'})}}
           // style={({ isActive }) => ({ color: isActive ? "#45ad7e" : "#000" })}
         >
-          My Experience
+          Experience
         </NavLink>
-     
+
         <NavLink
           className="nav-item"
-        
+          onClick={()=>{eduRef.current?.scrollIntoView({behavior:'smooth'})}}
+          // style={({ isActive }) => ({ color: isActive ? "#45ad7e" : "#000" })}
         >
-          Contact Me
+          Education
         </NavLink>
+     
+        {/* <NavLink
+          className="nav-item"
+        >
+           <a style={{textDecoration:'none',color:'inherit'}} href="mailto:mercy.okoduwa@outlook.com" target="_blank">
+           Contact Me
+          </a>
+          
+        </NavLink> */}
         <NavLink
           className="nav-item"
           to="/blog"

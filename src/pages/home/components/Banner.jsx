@@ -19,9 +19,13 @@ export const Banner = ()=>{
                 </div>
                <p className="invite">I am a QA Engineer accompanied by a self-motivated passion for excellent delivery of all tasks,a fervid team player, skilled team manager, and experience in automation testing with a strong focus on quality results.</p>
                 {/* <p className="invite">Interested in making delightful custom and user-friendly digital <br/> products, mobile application and motion designs.</p> */}
-                <button className="getInBtn">Get in touch
-                <EastIcon className="eastIcon"/>
-                </button>
+
+                <a style={{textDecoration:'none'}} href="mailto:mercy.okoduwa@outlook.com">
+                    <button className="getInBtn">Get in touch
+                    <EastIcon className="eastIcon"/>
+                    </button>
+                </a>
+        
                 {/* <ArrowBack/> */}
                
               </div>

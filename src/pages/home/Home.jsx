@@ -13,7 +13,7 @@ import { Education } from "./components/Education"
 
 export const Home = ()=>{
 
-  const {expRef,skillRef,aboutRef} = useContext(LayoutContext);
+  const {expRef,skillRef,aboutRef,eduRef} = useContext(LayoutContext);
 
   return (
     <>
@@ -49,7 +49,7 @@ export const Home = ()=>{
           </CContainer>
         </div>
 
-        <div className="educationme">
+        <div ref={eduRef} className="educationme">
          <CContainer>
             <Education/>
           </CContainer>
