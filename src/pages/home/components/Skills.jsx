@@ -20,7 +20,7 @@ export const Skills = () => {
             <h2>Automation and Manual Testing</h2>
             <div>
             <SkillPill skillName="Cypress" />
-            <SkillPill skillName="Selenium Webdriver" />
+            {/* <SkillPill skillName="Selenium Webdriver" /> */}
             <SkillPill skillName="Vysor" />
             </div>
           </div>

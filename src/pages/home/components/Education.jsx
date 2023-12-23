@@ -56,7 +56,7 @@ export const Education = () => {
             <Grid item md={8} xs={6}>
               <h3>University of Benin</h3>
               <p className="cert_iss ">B.ENG, Electrical and Electronics Engineering</p>
-              <p className="cert_date">2011 - 2016</p>
+              <p className="cert_date">Nov 2017</p>
               <p className="grade_me grade_me2 "><span>Grade: First Class Honours</span></p>
 
 

@@ -49,7 +49,7 @@ export const Footer = () => {
                   </a>
                 </span>
                 <span className="copyR">
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/MercyOkoduwa" target="_blank" rel="noopener noreferrer">
                   <img className="social__me" src={github} />
                   </a>
                 </span>
