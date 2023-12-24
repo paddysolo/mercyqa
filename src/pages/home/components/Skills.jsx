@@ -23,6 +23,8 @@ export const Skills = () => {
             <SkillPill skillName="Cypress" />
             {/* <SkillPill skillName="Selenium Webdriver" /> */}
             <SkillPill skillName="Vysor" />
+            <SkillPill skillName="Playwright" />
+            
             </div>
           </div>
         </Grid>

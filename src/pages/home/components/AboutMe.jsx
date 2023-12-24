@@ -5,6 +5,7 @@ import "./../../../pages/responsive.css"
 import badge from "./../../../assets/MED.png";
 import mercy from "./../../../assets/abt.jpg";
 
+import mercyImage from "./../../../assets/mercyokoduwa.png";
 
 export const AboutMe = () => {
   return (
