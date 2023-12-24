@@ -303,3 +303,11 @@ header {
     font-size: 3rem;
   }
 }
+
+
+
+@media (max-width: 528px) {  
+  header {
+    display: none;
+  }
+}

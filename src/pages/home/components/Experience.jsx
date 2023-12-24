@@ -27,14 +27,18 @@ export const Experience = () => {
                       <h3 class="timeline-title  timeline-title_cc ">
                         PROPHIUS LIMITED 
                       </h3>
-                      <p className=""><span className="rrole_cc">
+                      <p className=""><span className="rrole_cc rrole_cc_rm">
                           Quality Assurance Engineer
+                        </span></p>
+                        <p className=""><span className="rrole_cc rrole_cc_pm">
+                         March 2023 - PRESENT
                         </span></p>
                     </div>
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                       <h3 class="timeline-title">
-                       <span className="date_cc">March 2023 - PRESENT</span>
+                       <span className="date_cc date_cc_rm">March 2023 - PRESENT</span>
+                       <span className="date_cc date_cc_pm">Quality Assurance Engineer</span>
                         {/* PROPHIUS LIMITED -{" "}
                         <span className="rrole">
                           Quality Assurance Engineer
@@ -104,8 +108,11 @@ export const Experience = () => {
                       {/* <p className="time-pp"><span className="rrole">
                           Quality Assurance Engineer
                        </span></p> */}
-                       <p className="time-pp"><span className="rrole_cc">
+                       <p className="time-pp"><span className="rrole_cc rrole_cc_rm">
                           Quality Assurance Engineer
+                        </span></p>
+                        <p className="time-pp"><span className="rrole_cc rrole_cc_pm">
+                          Sept 2018 - Feb 2023
                         </span></p>
                     </div>
                     <div class="timeline-marker"></div>
@@ -118,8 +125,10 @@ export const Experience = () => {
                       </h3> */}
 
                        <h3 class="timeline-title">
-                       <span className="date_cc">Sept 2018 - Feb 2023</span>
+                       <span className="date_cc date_cc_rm">Sept 2018 - Feb 2023</span>
+                       <span className="date_cc date_cc_pm"> Quality Assurance Engineer</span>
                       </h3>
+                      
                      
                       {/* <span>Sept 2018 - Feb 2023</span> */}
                       <h4 class="timeline-title2">

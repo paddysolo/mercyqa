@@ -59,6 +59,24 @@
 }
 
 
+@media (max-width: 768px) { 
+  .rrole_cc_pm {
+    display: block !important;
+  }
+
+  .rrole_cc_rm {
+    display: none !important;
+  }
+
+  .date_cc_pm{
+    display: block !important;
+  }
+
+  .date_cc_rm {
+    display: none !important;
+  }
+}
+
 @media (max-width: 528px) {  
 
     .appContainChild {
@@ -255,9 +273,11 @@
         font-size: 10px;
       }
 
+ 
+
       div.timeline-content h3.timeline-title  span.date_cc{
         /* margin-bottom: 15px !important; */
-        font-size: 12px !important;
+        font-size: 16px !important;
       }
 
       div.timeline-content h4.timeline-title2 {
@@ -299,4 +319,16 @@
       }
       
    
+}
+
+
+@media (min-width: 769px) { 
+  p span.rrole_cc_rm {
+    display: none !important;
+  }
+
+
+ h3  span.date_cc_rm {
+  display: none !important;
+ }
 }
