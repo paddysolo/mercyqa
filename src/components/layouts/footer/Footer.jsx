@@ -8,6 +8,7 @@ import lindin from "./../../../assets/linkedin.png";
 import github from "./../../../assets/github.png";
 
 
+
 import "./footer.css";
 
 export const Footer = () => {
@@ -57,7 +58,7 @@ export const Footer = () => {
               </p>
             </Grid>
             <Grid item xs={12} md={6}>
-              <span className="social">
+              <span className="social linkedIIN">
                 <a
                   href="https://www.linkedin.com/in/mercyokoduwa/"
                   target="_blank"

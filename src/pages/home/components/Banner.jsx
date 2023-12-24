@@ -25,7 +25,7 @@ export const Banner = ()=>{
                 </a>
               </div>
             </Grid>
-            <Grid item md={6} sx={{ display: { sm: 'none', md: 'block' } }}>
+            <Grid item md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
              <div className="right">
                 <img className="productImage" src={mercyImage} alt="" />
                 <span  className="scrollingdown"><ScrollDown arrow={arrow}/></span>

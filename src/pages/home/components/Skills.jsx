@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import "./component.css";
 import { SkillPill } from "./ui/SkillPill";
+import "./../../../pages/responsive.css"
 
 export const Skills = () => {
   return (

@@ -32,10 +32,10 @@ export const Certification = () => {
       >
         <Grid item md={6} class="cert-card">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item md={4} xs={12}>
               <img className="aws" src={aws} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item md={8} xs={12}>
               <h3>AWS Certified Cloud Practitioner</h3>
               <p className="cert_iss">Amazon Web Services (AWS)</p>
               <p className="cert_date">Issued Dec 2021</p>
@@ -52,13 +52,13 @@ export const Certification = () => {
 
         <Grid item md={6} class="cert-card cert_ibm">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item md={4} xs={12}>
               <img className="ibm" src={ibm} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item md={8} xs={12}>
               <h3>Enterprise Design Thinking Practitioner</h3>
               <p className="cert_iss ">IBM</p>
-              <p className="cert_date">Issued Jan 2022</p>
+              <p className="cert_date ibm_date">Issued Jan 2022</p>
               <a href="https://www.credly.com/badges/bf7b4aaa-8e82-45ef-ab9d-62bb69c94a9c?source=linked_in_profile" target="_blank" rel="noopener noreferrer">
               <button className="downloadResume cert_view" type="button">
                 View Certificate
@@ -71,10 +71,10 @@ export const Certification = () => {
 
         <Grid item md={6} class="cert-card">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item md={4} xs={12}>
               <img className="aws" src={safee} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item md={8} xs={12}>
               <h3>Certified SAFe® 5 Practitioner</h3>
               <p className="cert_iss">Scaled Agile, Inc.</p>
               <p className="cert_date">Issued Jun 2022</p>
@@ -92,10 +92,10 @@ export const Certification = () => {
 
         <Grid item md={6} class="cert-card">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item md={4} xs={12}>
               <img className="sigma" src={sigma} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item md={8} xs={12}>
               <h3>Lean Six Sigma Yellow Belt</h3>
               <p className="cert_iss">GoLeanSixSigma.com</p>
               <p className="cert_date">Issued Sep 2018</p>
@@ -110,10 +110,10 @@ export const Certification = () => {
 
         <Grid item md={6} class="cert-card">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item md={4} xs={12}>
               <img className="axe" src={axe} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item md={8} xs={12}>
               <h3>ITIL® v4 Foundation Certificate <br/>in IT Service Management</h3>
               <p className="cert_iss">AXELOS Global Best Practice</p>
               <p className="cert_date">Issued Dec 2021</p>

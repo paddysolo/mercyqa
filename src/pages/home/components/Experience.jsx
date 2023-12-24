@@ -1,7 +1,6 @@
 import { Grid } from "@mui/material";
 import "./component.css";
-
-import badge from "./../../../assets/MED.png";
+import "./../../../pages/responsive.css"
 
 export const Experience = () => {
   return (

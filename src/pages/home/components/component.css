@@ -382,13 +382,9 @@
 .timeline-info p .rrole_cc {
   font-family:  "Poppins", sans-serif !important;
   font-weight: 300 !important;
+  font-size: 12px;
 }
 
-.timeline-info .rrole_ccc {
-  font-family:  "Poppins", sans-serif !important;
-  font-weight: 300 !important;
-  font-size: 12px!important;
-}
 /*==================================
     TIMELINE
 ==================================*/

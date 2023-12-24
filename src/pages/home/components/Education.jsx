@@ -29,10 +29,10 @@ export const Education = () => {
       >
         <Grid item md={6} class="cert-card">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item xs={12} sm={8} md={4}  >
               <img className="aws" src={america} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item xs={12} sm={8} md={8}  >
               <h3>American InterContinental University</h3>
               <p className="cert_iss">Masters of Science, Information Technology</p>
               <p className="cert_date">Dec 2021</p>
@@ -50,10 +50,10 @@ export const Education = () => {
 
         <Grid item md={6} class="cert-card cert_ibm">
           <Grid container spacing={1}>
-            <Grid item md={4} xs={6}>
+            <Grid item md={4} xs={12}>
               <img className="aws" src={uniben} alt="" />
             </Grid>
-            <Grid item md={8} xs={6}>
+            <Grid item md={8} xs={12}>
               <h3>University of Benin</h3>
               <p className="cert_iss ">B.ENG, Electrical and Electronics Engineering</p>
               <p className="cert_date">Nov 2017</p>

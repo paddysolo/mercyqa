@@ -1,10 +1,10 @@
 import { Grid } from "@mui/material";
 import "./component.css";
+import "./../../../pages/responsive.css"
 
 import badge from "./../../../assets/MED.png";
-
-// import mercy from "./../../../assets/mercyokoduwa.png";
 import mercy from "./../../../assets/abt.jpg";
+
 
 export const AboutMe = () => {
   return (
@@ -20,14 +20,18 @@ export const AboutMe = () => {
             <h4 className="about_me">ABOUT ME</h4>
             <h3 className="about_me_l">A Little Bio About Me</h3>
             <div className="exp-year">
-              <Grid container>
-                <Grid item>
+              <Grid container spacing={1}>
+                <Grid item  xs={1}>
                   <img className="exp-5i" src={badge} alt="" />
                 </Grid>
-                <Grid item>
-                  <p className="ex-5">
+                <Grid item  xs={11}>
+                  <p className="ex-5 x-l" sx={{ display: { xs: 'none', md: 'block' } }}>
                     5+ Years Experience in this game, Delivery Industry{" "}
                     <br></br>
+                    Standard Products.
+                  </p>
+                  <p className="ex-5 x-s">
+                    5+ Years Experience in this game, Delivery Industry{" "}
                     Standard Products.
                   </p>
                 </Grid>
