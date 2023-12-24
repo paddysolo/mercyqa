@@ -9,12 +9,12 @@ import mercy from "./../../../assets/abt.jpg";
 export const AboutMe = () => {
   return (
     <Grid container spacing={4}>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6}>
         <div className="left myleft">
         <img className="myself" src={mercy} alt="" />
         </div>
       </Grid>
-      <Grid item xs={6}>
+      <Grid  item xs={12} md={6}>
         <div className="right">
           <div className="textContent">
             <h4 className="about_me">ABOUT ME</h4>

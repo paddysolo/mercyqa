@@ -1,0 +1,27 @@
+@media (max-width: 1480px) { 
+
+    .intro-text {
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 2.5rem; 
+        margin-top: 0.7rem;
+      }
+
+      .invite {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1.875rem;
+      }
+
+      .arrowBack {
+        display: none;
+      }
+
+      .left {
+        padding-top: 3rem;
+      }
+
+}
