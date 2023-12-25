@@ -27,19 +27,17 @@ export const Header = () => {
     <header>
       <nav id="navigation">
         <div class="nav__column">
-        <NavLink className="myLogoLink" to="/">
-          <a href="" class="logo">
-         
-           {/* <img src="https://natedentondesign.com/_nuxt/img/e45c6bc.svg" /> */}
-           <img className="mercyicon" src={mercylogo} />
-          
-          </a>
-          </NavLink> 
+          <NavLink className="myLogoLink" to="/">
+            <a href="" class="logo">
+              {/* <img src="https://natedentondesign.com/_nuxt/img/e45c6bc.svg" /> */}
+              <img className="mercyicon" src={mercylogo} />
+            </a>
+          </NavLink>
         </div>
 
         <div class="nav__column">
           <button class="toggle-menu" onClick={() => handleToggle()}>
-            Menu
+            {/* Menu */}
             <span class="hamburger-holder">
               <span class="hamburger"></span>
             </span>
@@ -55,10 +53,10 @@ export const Header = () => {
                     onClick={() => {
                       handleToggle();
                       aboutRef.current?.scrollIntoView({ behavior: "smooth" });
-                     
                     }}
                   >
-                    About Me<span class="green">.</span>
+                    About Me
+                    {/* <span class="green">.</span> */}
                   </NavLink>
                 </a>
               </li>
@@ -72,7 +70,8 @@ export const Header = () => {
                       skillRef.current?.scrollIntoView({ behavior: "smooth" });
                     }}
                   >
-                    Skills<span class="green">.</span>
+                    Skills
+                    {/* <span class="green">.</span> */}
                   </NavLink>
                 </a>
               </li>
@@ -86,7 +85,8 @@ export const Header = () => {
                       expRef.current?.scrollIntoView({ behavior: "smooth" });
                     }}
                   >
-                    Experience<span class="green">.</span>
+                    Experience
+                    {/* <span class="green">.</span> */}
                   </NavLink>
                 </a>
               </li>
@@ -100,7 +100,8 @@ export const Header = () => {
                       eduRef.current?.scrollIntoView({ behavior: "smooth" });
                     }}
                   >
-                    Education<span class="green">.</span>
+                    Education
+                    {/* <span class="green">.</span> */}
                   </NavLink>
                 </a>
               </li>
@@ -112,20 +113,27 @@ export const Header = () => {
                     style={({ isActive }) => ({
                       color: isActive ? "#45ad7e" : "#000",
                     })}
-
                     onClick={() => {
                       handleToggle();
                     }}
                   >
-                    Blog<span class="green">.</span>
+                    Blog
+                    {/* <span class="green">.</span> */}
                   </NavLink>
                 </a>
               </li>
-              {/* <li class="menu-item">
-                <a href="#">
+              <li class="menu-item">
+                {/* <a href="#">
                   Experience<span class="green">.</span>
+                </a> */}
+                <a
+                  href="https://drive.google.com/u/2/uc?id=1hKCtAU9lxKlOQRxNNpcPNFzmprRfd41R&export=download"
+                  target="_blank"
+                  class="cv_download"
+                >
+                  Download CV
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

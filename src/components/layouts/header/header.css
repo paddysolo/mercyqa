@@ -703,3 +703,26 @@ header {
 img.mercyicon {
   width: 5rem;
 }
+
+
+.menu-item .cv_download {
+  border-radius: 26px;
+  background: #EAB945;
+  font-size: 13px;
+  height: 40px !important;
+  padding: 15px !important;
+  margin-top: 20px;
+  color: #fff !important;
+}
+
+.download:hover::after {
+  width: 0%;
+}
+
+.cv_download:hover {
+  background-color: #EAB945 ;
+  color: #fff !important;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}

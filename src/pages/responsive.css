@@ -208,25 +208,25 @@
 
       .aws {
         width: 100%;
-        max-height: 10rem;
+        /* max-height: 10rem; */
       }
 
       .ibm {
         width: 100%;
-        max-height: 10rem;
+        /* max-height: 10rem; */
       }
 
       .sigma {
         width: 100%;
-        max-height: 10rem;
+        /* max-height: 10rem; */
       }
       .axe {
         width: 100%;
-        max-height: 10rem;
+        /* max-height: 10rem; */
       }
 
       .ibm_date {
-        margin-bottom: 13px;
+        margin-bottom: 0px !important;
       }
 
       .cert-card{
