@@ -3,6 +3,8 @@ import { Footer } from "./footer/Footer";
 import { Header } from "./header/Header";
 import { useRef, createContext } from "react";
 import "./layout.css"
+import up from "./../../assets/up-arrow3.png";
+
 
 export const LayoutContext = createContext({})
 
@@ -14,6 +16,15 @@ export const Layout = () => {
   const layoutRef = useRef(null);
   // const skillRef = useRef(null)
 
+  const handleScroll =()=>{
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+
+
   return (
     <div className="container">
       <div className="tpc"></div>
@@ -23,6 +34,8 @@ export const Layout = () => {
             <Header />
             <Outlet />
             <Footer />
+            {/* <button className="scrollToTop" onClick={()=>handleScroll()}>scroll to top</button> */}
+            <img  className="scrollToTop" onClick={()=>handleScroll()} src={up} alt="" />
           </LayoutContext.Provider>
         </div>
       </div>

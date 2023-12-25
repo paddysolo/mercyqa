@@ -1,3 +1,10 @@
 .wrapper {
     /* border: 3px solid red; */
 }
+
+.scrollToTop {
+    width: 30px !important;
+    position: fixed !important;
+    top: 80vh !important;
+    right: 10px !important;
+}
