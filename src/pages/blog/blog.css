@@ -53,3 +53,12 @@
         background-color: #fff;
         padding-bottom: 4rem;
   }
+
+
+  @media (max-width: 528px) { 
+
+    .coming_soon {
+        font-size: 2rem;
+    }
+
+  }
