@@ -8,3 +8,7 @@
     top: 80vh !important;
     right: 10px !important;
 }
+
+.scrollToTop:hover {
+    cursor: pointer;
+}
